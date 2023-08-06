@@ -1,0 +1,42 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../assests/pexels-s-migaj-746393.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    margin-top: 100px;
+}
+.table {
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+
+table,thead,th,tr,td {
+    border: 2px solid white;
+}
+th {
+    padding: 15px;
+    
+    color: white;
+}
+td{
+    padding: 20px;
+    border: 2px solid white;
+}
+
+.temp {
+    display: flex;
+    justify-content: space-around;
+    
+}
+img {
+    width: 10rem;
+}
